@@ -5,6 +5,7 @@
 
 ## General info
 This project is an exercise for Dirmod build in JAVA.
+**Should be executed in linux or windows with bash console.**
 	
 ## Technologies
 Project is created with:
@@ -12,6 +13,7 @@ Project is created with:
 * Spring-boot version: 2.2.4
 * Apache Maven version: 3.6.1
 * JSON.org version: 20160810
+* Python version: 2.7.16
 * NodeJS version: 9.4.0
 * NodePackageManager version: 5.6.0
 * body-parser version: 1.19.0
@@ -29,10 +31,10 @@ Project is created with:
 ## Setup
 First install it with maven command in root directory:
 ```
-$ mvn install
+$ mvn clean install
 ```
 
-And then run the project:
+After that, run the project:
 ```
 $ ./mvnw spring-boot:run
 ```
