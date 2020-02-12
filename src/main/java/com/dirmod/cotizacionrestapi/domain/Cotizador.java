@@ -2,26 +2,32 @@ package com.dirmod.cotizacionrestapi.domain;
 
 public class Cotizador
 {
-	private String currencyName;
-	private Double price;
+	private String moneda;
+	private Long precio;
 
-	public void setPrice(Double _price)
+	public Cotizador( String _moneda, Long _precio )
 	{
-		this.price = _price;
+		this.moneda = _moneda;
+		this.precio = _precio;
 	}
 
-	public Double getPrice()
+	public void setPrecio(Long _precio)
 	{
-		return price;
+		this.precio = _precio;
 	}
 
-	public void setCurrencyName(String _currencyName)
+	public Long getPrecio()
 	{
-		this.currencyName = _currencyName;
+		return precio;
 	}
 
-	public String getCurrencyName()
+	public void setMoneda(String _moneda)
 	{
-		return currencyName;
+		this.moneda = _moneda;
+	}
+
+	public String getMoneda()
+	{
+		return moneda;
 	}
 }
