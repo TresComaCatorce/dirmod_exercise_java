@@ -13,6 +13,7 @@ Project is created with:
 * Spring-boot version: 2.2.4
 * Apache Maven version: 3.6.1
 * JSON.org version: 20160810
+* Frontend-maven-plugin version: 1.9.1
 * Python version: 2.7.16
 * NodeJS version: 9.4.0
 * NodePackageManager version: 5.6.0
